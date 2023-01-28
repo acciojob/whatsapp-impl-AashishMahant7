@@ -6,7 +6,7 @@ import java.util.List;
 
 @Service
 
-public class WhhatsappService {
+public class WhatsappService {
     WhatsappRepository whatsappRepository = new WhatsappRepository() ;
     public boolean isNewUser(String mobile) {
         return whatsappRepository.isNewUser(mobile);
